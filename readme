@@ -1,0 +1,67 @@
+# Facebook Live Stream Plugin
+
+The Facebook Live Stream Plugin allows you to embed Facebook live streams on your WordPress website and collect feedback from your audience.
+
+## Features
+
+- Display Facebook live streams on your website.
+- Collect feedback from viewers with a customizable feedback form.
+- Display the live stream and feedback form together on any post, page, or widgetized area.
+
+## Installation
+
+1. Download the plugin zip file from the GitHub repository.
+2. In your WordPress admin panel, navigate to Plugins > Add New.
+3. Click on the "Upload Plugin" button, select the plugin zip file, and click "Install Now."
+4. Activate the plugin.
+
+## Usage
+
+### Shortcode
+
+Use the following shortcode to display the Facebook live stream and feedback form together on any post or page:
+
+```
+[facebook_live_stream_with_feedback]
+```
+
+### Widget
+
+You can also use the Facebook Live Stream Widget to display the live stream and feedback form together in a widgetized area of your theme.
+
+1. Go to Appearance > Widgets in your WordPress admin panel.
+2. Drag the "Facebook Live Stream Widget" to the desired widget area.
+3. Enter your Facebook Access Token and Page ID in the widget settings.
+
+### Feedback Form and Live Stream Together
+
+You can display the live stream and feedback form together by using the shortcode or widget in your posts, pages, or widgetized areas. This allows your audience to watch the live stream and submit feedback simultaneously, enhancing user engagement and interaction.
+
+## Configuration
+
+Before using the plugin, you'll need to obtain a Facebook Access Token and Page ID:
+
+1. **Access Token**: Generate a Facebook Access Token from the Facebook Developer Console. Make sure the token has the `pages_show_list` and `pages_read_engagement` permissions.
+2. **Page ID**: Obtain the ID of the Facebook page where the live stream will be broadcasted.
+
+Once you have obtained the Access Token and Page ID, you can configure the plugin settings in the WordPress admin panel.
+
+## Compatibility
+
+This plugin is compatible with all modern WordPress themes. However, some themes or plugins may require additional styling adjustments for optimal display.
+
+## Feedback
+
+We welcome your feedback! If you have any suggestions, feature requests, or bug reports, please feel free to submit them through our [GitHub repository](https://github.com/rizennews/custom-facebook-live-stream-pluginissues).
+
+## Support
+
+For support or assistance with the plugin, you can reach out to us through our [GitHub repository](https://github.com/rizennews/custom-facebook-live-stream-plugin/issues) or contact us via email at support@example.com.
+
+## License
+
+This plugin is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Adjust the URLs, email addresses, and other details as needed. This README provides clear instructions on how to use the plugin and where to display the live stream and feedback form together.
